@@ -12,7 +12,7 @@ weather [city] [country]
 Both arguments are optional and default to the values set in `.env`.
 
 **Example:**
-```bash
+```
 $ weather Berlin DE
 Condition: It's a mild, partly cloudy afternoon at 7°C, but it feels much cooler at just 5°C due to the breeze.
 Recommendation: Opt for a medium jacket or fleece and regular trousers; you might find it slightly chilly without a light layer underneath.
