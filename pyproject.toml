@@ -1,0 +1,13 @@
+[project]
+name = "weather"
+version = "0.1.0"
+description = "Brief natural language weather report clothing recommendations"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests",
+    "python-dotenv",
+]
+
+[project.scripts]
+weather = "main:main"
